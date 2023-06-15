@@ -1,0 +1,839 @@
+@media screen  and (max-width:768px){
+    body{
+        overflow: hidden;
+    }
+    .Home-container .Home .Home-text h2{
+        padding: 10px 15px;
+      }
+    .navlinks {
+        background-color: var(--main-color);
+        position: absolute;
+        top: 75px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 480px;
+        padding:10px;  
+        display: none;
+    }
+
+
+  
+    .navlinks li {
+        background-color: #ffffff;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items:left;
+        justify-content: left;
+        text-align: left;
+        
+       
+    }
+
+    .navlinks li a {
+        color: var(--primary-color);
+        font-weight: 500;
+
+    }
+
+    
+
+    .navlinks li:hover {
+        color:var(--third-color);
+    }
+    
+    .checkbtn {
+        display: block;
+    }
+
+    #check:checked~.navlinks {
+     
+        display: flex;
+    }
+
+    .navlinks .button{
+      width: 100%;
+      height: 50px;
+      color: var(--primary-color);
+      text-align:left;
+    }
+
+    .Home-container .Home{
+        min-height: 50rem;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        justify-content: center;
+       
+       
+       
+    }
+
+   .Home-container .Home .Home-text{
+    text-align: center;
+    position: relative;
+    top: 30%;
+    
+
+    }
+
+    .Home-container .Home .Home-text h1{
+        font-size: 35px;
+        width:22rem;
+        position: relative;
+        left: 50px;
+       
+    }
+
+    
+
+  
+    .Home-container .Home .Home-img img{
+        position: relative;
+        top: 30px;
+        left: 20px;
+        width: 26rem;
+       
+        
+    }
+
+    .image-container .images{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+      
+    }
+
+    .image-container .images img{
+        width: 35%;
+        height: 35%;
+        padding: 10px;
+       
+    }
+
+    .About-container .heading h1:after{
+        width: 25%;
+    }
+
+    .About-container .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+       
+       
+    }
+
+    .About-container .container .About-text h2{
+        display: flex;
+        width: 24rem;
+        font-size: 19px;
+        padding: 10px 15px;
+       
+    }
+
+    .About-container .container .About-text i{
+        position: relative;
+        bottom: 5px;
+    }
+
+    .About-container .container .About-text p{
+        width: 25rem;
+        display: flex;
+        margin-bottom: 10px;
+        line-height: 1.5;
+        position: relative;
+        right: 10px;
+        font-size: 18px;
+        padding: 10px 15px;
+  
+       
+    }
+
+    .About-container .container .About-word h2{
+         position: relative;
+         top: 1px; 
+         left: 0px;
+        width: 24rem;
+        font-size: 19px;
+        padding:10px 15px;
+    }
+
+ 
+
+    .About-container .container .About-button{
+        position: relative;
+        top: 30px;
+        left: 15px;
+    }
+
+    
+
+    .Polices-container .sub-heading h1 {
+        width: 24rem;
+        position: relative;
+        left: 10px;
+     
+     
+       
+     
+    }
+
+    .Polices-container .sub-heading p{
+        width: 24rem;
+        position: relative;
+        left: 10px;
+     
+    }
+
+    .Polices-container .order-container{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .Polices-container .order-container .order #accordion{
+      width: 410px;
+      position: relative;
+      top: 60px;
+      right: 5px;
+      
+      
+     
+    }
+     
+   .Polices-container .order-container .order #accordion li label{
+    display: flex;
+    padding: 10px 15px;
+    font-size: 19px;
+   }
+
+   .Polices-container .order-container .order #accordion li label i{
+    position: relative;
+    bottom: 10px;
+   }
+
+    .Polices-container .order-container .order #accordion li .word p{
+        display: flex;
+        width: 24rem;
+        padding: 10px 15px;
+        font-size: 17px;
+    }
+
+    .Polices-container .order-container .vector img{
+        width: 25rem;
+    }
+
+    .ratio-container .progress{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+    
+.ratio-container .progress .progress-img img{
+    width: 24rem;
+
+}
+
+.ratio-container .progress .progress-text h1{
+    font-size: 35px;
+     width: 25rem;
+    
+}
+
+.Services-container .inner h1:after{
+    width:25%;
+   
+}
+
+
+.Services-container .card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.Services-container .card-container .card-text{
+    width:23rem;
+}
+
+.Services-container .card-container .card-text p{
+    width: 23rem;
+    padding: 10px 15px;
+}
+
+.call-to-action-container .box-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+ 
+}
+.call-to-action-container .box-container .box h2{
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.call-to-action-container .box-container .box p{
+    width: 21rem;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.Portfolio-container .Portfolio-text h1:after{
+    width:25%;
+}
+
+
+
+.Portfolio-container .Portfolio-text .layer .out{
+    display: inline-block;
+    width: 15%;
+   
+}
+
+.Portfolio-container .grid-container .menu-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.Portfolio-container .grid-container .menu-container .menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Portfolio-container .grid-container .menu-container .menu img{
+    width: 100%;
+}
+
+.Team-container .Team-text h1:after{
+    width:25%;
+}
+
+.Team-container .card-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.Team-container .card-content .card-box{
+    width: 35rem;
+}
+
+.Team-container .card-content .card-box img{
+    position: relative;
+    left: 10px;
+}
+
+.Team-container .card-content .card-box h1{
+    padding: 10px 15px;
+    position: relative;
+    bottom: 45%;
+}
+
+.Team-container .card-content .card-box h2{
+    padding: 10px 15px;
+    position: relative;
+    bottom:52%;
+}
+
+.Team-container .card-content .card-box h2::after{
+    position: relative;
+    right: 175px;
+}
+
+.Team-container .card-content .card-box p{
+    padding: 10px 15px;
+    width: 17rem;
+    font-size: 16px;
+    position: relative;
+    bottom: 55%;
+}
+
+.Team-container .card-content .card-box i{
+    position: relative;
+    bottom: 55%;
+    left: 46%;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+.Pricing-container .Pricing-text h1:after{
+    width:25%;
+   
+}
+
+.Pricing-container .card-1{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.FAQ-container .FAQ-text h1::after {
+    width: 25%;
+}
+ 
+
+.FAQ-container .assign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+ .FAQ-container .assign #accordion-1 {
+    width: 27rem;
+    padding: 10px 15px;
+
+ 
+ }  
+
+ .FAQ-container .assign #accordion-1 li{
+    padding: 25px 30px;
+ }
+
+
+.FAQ-container .assign #accordion-1 li label{
+    font-size: 16px;
+    display: flex;
+   
+}
+
+
+.FAQ-container .assign #accordion-1 li .part p{
+    font-size: 15px;
+    padding: 15px 20px;
+    display: flex;
+    width: 22rem;
+
+   
+  
+}
+
+.FAQ-container .assign #accordion-1 li label .line{
+    position: relative;
+    top: 1px;
+}
+
+.FAQ-container .assign #accordion-1 li label .bar{
+    position: relative;
+    bottom: 5px;
+
+}
+
+.Contact-container .contact-text h1::after{
+    width: 25%;
+}
+
+.Contact-container .sector{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contact-container .sector .outer{
+    width: 30rem;
+    height: 35rem;
+}
+.footercontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.credit .column{
+    display: inline-block;
+    line-height: 2;
+}
+}
+ @media only screen and (min-width:360px) and (max-width:480px)
+ {
+ 
+    body{
+        overflow: hidden;
+    }
+   .Home-container .Home .Home-text h1{
+    position: relative;
+    left: 5px;
+   }
+    .Home-container .Home .Home-text h2{
+      padding: 10px 15px;
+    }
+    .Home-container .Home .Home-img img{
+        width: 21rem;
+    }
+
+    .About-container .heading h1:after{
+        width:35%;
+    }
+    .About-container .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+       
+       
+    }
+
+    .About-container .container .About-text h2{
+        display: flex;
+        width: 22rem;
+        font-size: 17px;
+        padding:10px 15px
+       
+    }
+
+    .About-container .container .About-text i{
+        position: relative;
+        bottom: 5px;
+    }
+
+    .About-container .container .About-text p{
+        width: 22rem;
+        display: flex;
+        margin-bottom: 10px;
+        line-height:1.5;
+        font-size: 16px;
+        padding: 10px 15px;
+  
+       
+    }
+
+    .About-container .container .About-word h2{
+         position: relative;
+         top: 1px;
+         left: 5px; 
+        width: 22rem;
+        font-size: 17px;
+        padding: 10px 15px;
+    }
+
+    .About-container .container .About-button{
+        position: relative;
+        left: 20px;
+    }
+
+    .Polices-container .sub-heading{
+        position: relative;
+        right: 35px;
+    }
+
+    .Polices-container .sub-heading h1 {
+        width: 23rem; 
+        font-size: 20px;
+        padding: 10px 15px;
+     
+    }
+
+    .Polices-container .sub-heading p{
+        width: 23rem;
+        font-size: 16px;
+        padding: 10px 15px;
+     
+    }
+    .Polices-container .order-container .order #accordion{
+        width: 350px;
+        position: relative;
+        top: 60px;
+        left: 2px;
+     }
+     .Polices-container .order-container .order #accordion li label{
+        display: flex;
+        width: 22rem;
+        padding: 10px 15px;
+        font-size: 17px;
+     }
+     .Polices-container .order-container .order #accordion li .word p{
+        display: flex;
+        width: 22rem;
+        font-size: 16px;
+        padding: 10px 10px;
+     }
+     .Polices-container .order-container .vector img{
+        width: 22rem;
+       }
+     .ratio-container .progress{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+      }
+    
+  .ratio-container .progress .progress-img img{
+    width: 22rem;
+
+   }
+
+.ratio-container .progress .progress-text h1{
+    font-size: 28px;
+     width: 22rem;
+     padding: 10px 15px;
+     position: relative;
+     right: 10px;
+    
+}
+
+.ratio-container .progress .progress-text p{
+    font-size: 16px;
+    width: 22rem;
+    padding: 10px 15px;
+    position: relative;
+    right: 10px;
+}
+
+
+
+.ratio-container .progress .progress-text .skill-box p:nth-child(2){
+    position: relative;
+    bottom: 50px;
+    left: 83%;
+    
+}
+
+
+
+.Services-container .inner h1:after{
+    width:35%;
+}
+
+.Services-container .card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Services-container .card-container .card-text{
+    width: 22rem;
+}
+
+.Services-container .card-container .card-text p{
+    width: 22rem;
+    padding: 10px 15px;
+}
+
+.call-to-action-container .box-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+ 
+}
+.call-to-action-container .box-container .box h2{
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.call-to-action-container .box-container .box p{
+    width: 21rem;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+
+.Portfolio-container .Portfolio-text h1:after{
+    width:35%;
+   
+}
+
+
+.Portfolio-container .Portfolio-text .layer{
+    word-spacing: 25px;
+}
+
+.Portfolio-container .Portfolio-text .layer .out{
+    display: inline-block;
+    width: 20%;
+   
+}
+
+.Portfolio-container .grid-container .menu-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.Portfolio-container .grid-container .menu-container .menu {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+.Portfolio-container .grid-container .menu-container .menu img{
+    width: 100%;
+}
+
+.Team-container .Team-text h1:after{
+    width: 35%;
+}
+
+.Team-container .card-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.Team-container .card-content .card-box{
+    width: 35rem;
+    height: 18rem;
+}
+
+.Team-container .card-content .card-box img{
+    width: 8rem;
+    height:8rem;
+    position: relative;
+    top: 40px;
+    left: 5px;
+}
+
+.Team-container .card-content .card-box h1{
+    font-size: 20px;
+    position: relative;
+    left: 40%;
+    padding: 10px 15px;
+}
+.Team-container .card-content .card-box h2{
+    font-size: 17px;
+    position: relative;
+    left: 40%;
+    padding: 10px 15px;
+}
+
+
+.Team-container .card-content .card-box h2::after{
+    position: relative;
+    right: 125px;
+}
+
+.Team-container .card-content .card-box p{
+    font-size: 15px;
+    width: 13rem;
+    position: relative;
+    bottom: 57%;
+    left: 40%;
+    padding: 10px 15px;
+}
+
+.Team-container .card-content .card-box i{
+    font-size: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    padding: 0px 10px;
+    position: relative;
+    bottom: 62%;
+    left:43%;
+   
+}
+
+.Pricing-container .Pricing-text h1:after{
+    width: 35%;
+}
+.Pricing-container .card-1{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+
+
+.Pricing-container .card-1 .card-2 .center p{
+   font-size: 14px;
+   width: 15rem;
+}
+
+
+.FAQ-container .FAQ-text h1::after {
+    width: 35%;
+}
+ 
+
+.FAQ-container .assign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.FAQ-container .assign #accordion-1{
+    width: 385px;
+    padding: 10px 15px;
+ 
+   
+    
+}
+
+.FAQ-container .assign #accordion-1 li{
+    padding: 10px 15px;
+}
+
+.FAQ-container .assign #accordion-1 li label{
+    font-size: 16px;
+    width: 21rem;
+    display: flex;
+}
+
+.FAQ-container .assign #accordion-1 li .part p{
+    font-size: 15px;
+    padding: 10px 15px;
+    width: 21rem;
+    display: flex;
+  
+}
+
+.FAQ-container .assign #accordion-1 li .line{
+    position: relative;
+    top: 1px;
+}
+ .Contact-container .sector{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+.Contact-container .sector .card-3{
+    width: 22rem;
+    height: 35rem;
+}
+
+iframe{
+    width: 340px;
+    height: 230px;
+   
+}
+ .Contact-container .sector .outer{
+    width: 22rem;
+    height: 35rem;
+ }
+ .footercontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.credit .column{
+    display: inline-block;
+    line-height: 2;
+}
+
+ }
